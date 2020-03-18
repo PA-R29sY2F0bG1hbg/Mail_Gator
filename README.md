@@ -1,28 +1,31 @@
 Mail Gator
 Forensic Tool for investigate email
 
-Update Todo : https://github.com/VirusTotal/vt-cli
-For Add Virus Total and interact in commande line
-
-Update Todo: Get more information about track IP & phishing email
-
-
-# Forensic Tool for investigate post attack emailing #
+# Forensic Tool for investigate email #
 ------------------------------------------------------
 
 
-![image](https://user-images.githubusercontent.com/18190054/76979451-3ebed400-6938-11ea-82bd-9ecacfe45406.png)
+![image](https://user-images.githubusercontent.com/18190054/77008531-9bd17e80-6966-11ea-9297-607461dd498a.png)
 
 
+## How to install Dependency
+>cd Mail_Gator
+
+>pip3 install -r /dependency/requirement.txt
+
+>chmod 707 /dependency/apt_tools.sh
+
+> sudo /dependency/apt_tools.sh
 
 
-# How Launch Mail_Gator #
--------------------------
+## How Launch Mail_Gator 
+
 [!] Run Mail_Gator [!]
-.\mail_gator.py "path to email"
 
-# What Do Mail Gator #
-----------------------
+.\mail_gator.py [path to email] [path to attachment]
+
+## What Do Mail Gator
+
 [*] What Do Email Vestigator [*]
 
 - Email Identities and Data
@@ -42,12 +45,13 @@ Update Todo: Get more information about track IP & phishing email
     1) IP Route
     2) IP Map Geolocation
     3) Analyse Email Header
-    4) Virus Total Url
+    4) Last Servering IP
+    5) Url Authenticity
 
 - Malware Analyse
-    -- Custome Header
-    -- Proxy Usage
-    -- Attachement Analyse (Link to WebSite attachement analyse)
+    1) Get File Hash
+    2) Analyse Attachment
+    
 
-- Volatility Memory (Tools Add)
+- Volatility Memory (In Developement)
 
