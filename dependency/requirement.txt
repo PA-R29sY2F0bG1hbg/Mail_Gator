@@ -1,0 +1,4 @@
+colorama
+mail-parser
+google
+
