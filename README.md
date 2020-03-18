@@ -16,7 +16,6 @@ Update Todo: Get more information about track IP & phishing email
 
 
 
-
 # How Launch Mail_Gator #
 -------------------------
 [!] Run Mail_Gator [!]

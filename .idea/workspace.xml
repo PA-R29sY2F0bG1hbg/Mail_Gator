@@ -37,9 +37,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584559892601">
+    <state x="2475" y="215" width="800" height="673" key="#Notifications" timestamp="1584563503218">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584559892601" />
+    <state x="2475" y="215" width="800" height="673" key="#Notifications/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563503218" />
+    <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1584563490375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563490375" />
+    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584563305610">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563305610" />
   </component>
 </project>
