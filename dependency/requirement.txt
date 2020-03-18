@@ -1,4 +1,4 @@
-colorama
+# python pip package
 mail-parser
 google
 
