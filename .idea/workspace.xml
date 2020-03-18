@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584564097365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beta 0.7">
+      <created>1584566488991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584566488991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -84,19 +90,19 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="215" width="800" height="673" key="#Notifications/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563503218" />
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2" timestamp="1584564097303">
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2" timestamp="1584566488851">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584564097303" />
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566488851" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563534019" />
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1584563558157">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563558157" />
-    <state x="564" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1584566026109">
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1584566562054">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566026109" />
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566562054" />
     <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563305610" />
     <state x="1962" y="27" width="1420" height="1016" key="dock-window-1" timestamp="1584566242786">
       <screen x="1920" y="0" width="1920" height="1080" />

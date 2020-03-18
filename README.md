@@ -11,11 +11,11 @@ Forensic Tool for investigate email
 ## How to install Dependency
 >cd Mail_Gator
 
->pip3 install -r /dependency/requirement.txt
+>pip3 install -r ./dependency/requirement.txt
 
->chmod 707 /dependency/apt_tools.sh
+>sudo chmod 707 dependency/apt_tools.sh
 
-> sudo /dependency/apt_tools.sh
+> sudo dependency/apt_tools.sh
 
 
 ## How Launch Mail_Gator 
