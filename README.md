@@ -1,6 +1,3 @@
-Mail Gator
-Forensic Tool for investigate email
-
 # Forensic Tool for investigate email #
 ------------------------------------------------------
 
@@ -22,7 +19,7 @@ Forensic Tool for investigate email
 
 [!] Run Mail_Gator [!]
 
-.\mail_gator.py [path to email] [path to attachment]
+.\mail_gator.py [path to email] [(optional) path to attachment]
 
 ## What Do Mail Gator
 
@@ -37,6 +34,7 @@ Forensic Tool for investigate email
     1) Google Dorks
     2) Open Multiple Url From File
     3) Security Reffered Website
+            
             - Refered_Websit
                     1) Hunter.IO
                     2) Mail Hippo
@@ -53,5 +51,7 @@ Forensic Tool for investigate email
     2) Analyse Attachment
     
 
-- Volatility Memory (In Developement)
+- Volatility Memory
+    1) Exiftool
+    2) Strings (Get String Contained In File)
 
