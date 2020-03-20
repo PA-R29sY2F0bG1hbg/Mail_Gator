@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functions/volatility_memory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency/apt_tools.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dependency/apt_tools.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/banner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,14 +148,36 @@
       <option name="project" value="LOCAL" />
       <updated>1584566880670</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Version: 1.0">
+      <created>1584682161063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584682161063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Version: 1.0">
+      <created>1584682291356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584682291356</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Version: 1.0">
+      <created>1584682349459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584682349459</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="beta" />
     <MESSAGE value="beta0.7" />
     <MESSAGE value="beta 0.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta 0.7" />
+    <MESSAGE value="Version: 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version: 1.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="215" width="800" height="673" key="#Notifications" timestamp="1584563503218">
@@ -171,10 +188,10 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="63" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584682291282">
+    <state x="522" y="55" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584682349388">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state x="522" y="63" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584682291282" />
+    <state x="522" y="55" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584682349388" />
     <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566880585" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563534019" />
     <state x="721" y="298" key="FileChooserDialogImpl" timestamp="1584572566538">

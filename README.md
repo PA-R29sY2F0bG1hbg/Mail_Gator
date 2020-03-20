@@ -2,7 +2,7 @@
 ------------------------------------------------------
 
 
-![image](https://user-images.githubusercontent.com/18190054/77008531-9bd17e80-6966-11ea-9297-607461dd498a.png)
+![image](https://user-images.githubusercontent.com/18190054/77139073-d88b9b80-6a74-11ea-9c7c-c32ef9317041.png)
 
 
 ## How to install Dependency
