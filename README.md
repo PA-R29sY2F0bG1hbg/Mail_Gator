@@ -17,13 +17,9 @@
 
 ## How Launch Mail_Gator 
 
-[!] Run Mail_Gator [!]
-
 .\mail_gator.py [path to email] [(optional) path to attachment]
 
 ## What Do Mail Gator
-
-[*] What Do Email Vestigator [*]
 
 - Email Identities and Data
     1) Full Email Metadata
@@ -54,4 +50,9 @@
 - Volatility Memory
     1) Exiftool
     2) Strings (Get String Contained In File)
+    3) Hexdump
+    4) PDF ID
+    5) PDF PARSER
+    6) Office Doc Analyse
+    7) Office Doc Analyse Macro
 

@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
+    <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="Version: 1.0">
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/contains_pe_file.yara" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/decoder_add1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/decoder_ah.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/decoder_chr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/decoder_rol1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/decoder_xor1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/maldoc.yara" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/oledump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_biff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_clsid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_dridex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_hifo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_http_heuristics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_jumplist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_linear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_msg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_msi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_office_crypto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_ppt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_str_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_stream_o.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_stream_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_vba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_vba_dco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_vba_routines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_vba_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/plugin_version_vba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/oledump/vba.yara" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf-parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/pdfid.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/pdfid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/plugin_embeddedfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/plugin_list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/plugin_nameobfuscation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency/pdf_id/plugin_triage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency/apt_tools.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dependency/apt_tools.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/banner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/volatility_memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/volatility_memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +62,47 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZJZY3IpReVn0sVxuqAQfdrwbZ1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dependency" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration name="email_identities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mail_Gator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/email_identities.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mail_Gator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +116,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mail_Gator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,6 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.email_identities" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
       </list>
@@ -169,10 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584682349459</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Version: 1.0">
+      <created>1584682502942</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584682502942</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="beta" />
     <MESSAGE value="beta0.7" />
     <MESSAGE value="beta 0.7" />
@@ -188,49 +290,66 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="55" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584682349388">
+    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584747015744">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state x="522" y="55" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584682349388" />
+    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584747015744" />
     <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566880585" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563534019" />
     <state x="721" y="298" key="FileChooserDialogImpl" timestamp="1584572566538">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="721" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584572566538" />
-    <state width="1891" height="249" key="GridCell.Tab.0.bottom" timestamp="1584681703598">
+    <state width="927" height="249" key="GridCell.Tab.0.bottom" timestamp="1584746442519">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1891" height="249" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1584681703598" />
-    <state width="1891" height="249" key="GridCell.Tab.0.center" timestamp="1584681703597">
+    <state width="927" height="249" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1584746442519" />
+    <state width="927" height="249" key="GridCell.Tab.0.center" timestamp="1584746442517">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1891" height="249" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1584681703597" />
-    <state width="1891" height="249" key="GridCell.Tab.0.left" timestamp="1584681703597">
+    <state width="927" height="249" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1584746442517" />
+    <state width="927" height="249" key="GridCell.Tab.0.left" timestamp="1584746442516">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1891" height="249" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1584681703597" />
-    <state width="1891" height="249" key="GridCell.Tab.0.right" timestamp="1584681703598">
+    <state width="927" height="249" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1584746442516" />
+    <state width="927" height="249" key="GridCell.Tab.0.right" timestamp="1584746442518">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1891" height="249" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1584681703598" />
-    <state x="459" y="184" width="1001" height="734" key="SettingsEditor" timestamp="1584676411348">
+    <state width="927" height="249" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1584746442518" />
+    <state x="459" y="176" width="1001" height="734" key="SettingsEditor" timestamp="1584709475552">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state x="459" y="184" width="1001" height="734" key="SettingsEditor/0.27.1920.1052@0.27.1920.1052" timestamp="1584676411348" />
+    <state x="459" y="176" width="1001" height="734" key="SettingsEditor/0.27.1920.1052@0.27.1920.1052" timestamp="1584709475552" />
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1584563558157">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563558157" />
-    <state x="564" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1584676220723">
+    <state x="564" y="358" key="com.intellij.ide.util.TipDialog" timestamp="1584744728134">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state x="564" y="390" key="com.intellij.ide.util.TipDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1584676220723" />
+    <state x="564" y="358" key="com.intellij.ide.util.TipDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1584744728134" />
     <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584572552687" />
     <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563305610" />
-    <state x="1962" y="27" width="1420" height="1016" key="dock-window-1" timestamp="1584566242786">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="1003" y="55" width="698" height="992" key="dock-window-1" timestamp="1584744980566">
+      <screen x="0" y="27" width="1920" height="1052" />
     </state>
+    <state x="1003" y="55" width="698" height="992" key="dock-window-1/0.27.1920.1052@0.27.1920.1052" timestamp="1584744980566" />
     <state x="1962" y="27" width="1420" height="1016" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566242786" />
+    <state x="839" y="19" width="698" height="992" key="dock-window-2" timestamp="1584745134904">
+      <screen x="0" y="27" width="1920" height="1052" />
+    </state>
+    <state x="839" y="19" width="698" height="992" key="dock-window-2/0.27.1920.1052@0.27.1920.1052" timestamp="1584745134904" />
+    <state x="937" y="19" width="698" height="701" key="dock-window-3" timestamp="1584745625075">
+      <screen x="0" y="27" width="1920" height="1052" />
+    </state>
+    <state x="937" y="19" width="698" height="701" key="dock-window-3/0.27.1920.1052@0.27.1920.1052" timestamp="1584745625075" />
+    <state x="1148" y="19" width="702" height="992" key="dock-window-4" timestamp="1584746825302">
+      <screen x="0" y="27" width="1920" height="1052" />
+    </state>
+    <state x="1148" y="19" width="702" height="992" key="dock-window-4/0.27.1920.1052@0.27.1920.1052" timestamp="1584746825302" />
+    <state x="205" y="444" width="540" height="202" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584719702873">
+      <screen x="0" y="27" width="1920" height="1052" />
+    </state>
+    <state x="205" y="444" width="540" height="202" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1584719702873" />
   </component>
 </project>

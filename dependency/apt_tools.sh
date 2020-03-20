@@ -1,3 +1,4 @@
+# sudo chmod 707 pdf_id/pdfid.py
 sudo apt install whois
 sudo apt install exiftool
 sudo apt update

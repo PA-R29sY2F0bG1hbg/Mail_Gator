@@ -192,11 +192,21 @@ try:
                     volatility_memory.exiftool(attachment)
 
                 elif user_input == 2:
-                    print("[!] Section In Development [!]")
+                    volatility_memory.strings_tool(attachment)
 
                 elif user_input == 3:
-                    menu.main_menu()
-                    break
+                    volatility_memory.hexdump(attachment)
+
+                elif user_input == 4:
+                    volatility_memory.pdfid(attachment)
+
+                elif user_input == 5:
+                    volatility_memory.pdfparser(attachment)
+
+                elif user_input == 6:
+                    volatility_memory.oledump(attachment)
+                    A = input("Select Macro: ")
+                    volatility_memory.oledump_macro(A, attachment)
 
                 elif user_input == 99:
                     exit.exit_func()
