@@ -27,7 +27,7 @@ def short_meta_data(file):
     e_from = os.system("grep From: " + file)
     e_attach = os.system("grep attachment " + file)
     e_mess_id = os.system("grep Message-Id: " + file)
-    print("\n [*] IP Inforamtion (Email Header) [*]")
+    print("\n [*] IP Information (Email Header) [*]")
     print("  --------------------")
     e_rcv_ip = os.system("grep Received " + file)
     print("\n [*] SMTP Inforamtion [*] ")
