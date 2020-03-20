@@ -69,6 +69,6 @@ def vt_analyse():
 
 def volatility_m():
     print(yellow, '\n [*] Volatility Memory [*]')
-    print('\n1) Tool ... ')
-    print('50) Return To Main Menue')
+    print(white, '\n 1) Exiftool')
+    print(white, '\n 1) Strings')
     print('99) Exit')

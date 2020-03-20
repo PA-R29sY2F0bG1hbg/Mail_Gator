@@ -27,10 +27,10 @@ def ban():
                         |  \/  |_ __ (_| | |___ \ _ __ _| | ___ __ _ 
                         | |\/| | '_ \| | |  _  | | '_ |__ |/ _ |__` |
                         | |  | | |_) | | | | |_| | |_) _| | (_) | | |
-                        |_|  |_|_.__/|_|_| |____/|_.__|__/ \___/  |_|  v0.7
+                        |_|  |_|_.__/|_|_| |____/|_.__|__/ \___/  |_|  v1.0
                         
-                        [ Email Investigator & Tracking Post attack ] 
+                               [ Email Investigator & Tracking ] 
                         
-                          [ Developed By: Gold_Cattlman & NaruFury ]
+                            [ Developed By: Gold_Cattlman & NaruFury ]
         
     """)

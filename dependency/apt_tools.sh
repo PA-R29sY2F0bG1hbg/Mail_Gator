@@ -1,4 +1,5 @@
 sudo apt install whois
+sudo apt install exiftool
 sudo apt update
 echo "[*] Need API Key To InterAct With VirusTotal [*]"
 echo "create an account: https://www.virustotal.com/gui/join-us"
