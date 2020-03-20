@@ -39,7 +39,7 @@ try:
     while user_selection != 88:
         user_input = int(input("\n Selection: "))
 
-        # Email Id Menue
+        # Email Id Menu
         if user_input == 1:
             while user_selection != 88:
                 menu.email_id_menu()
@@ -97,7 +97,7 @@ try:
                             print(green, "\n[*] Hunter.io Loaded [*]")
                             time.sleep(1)
 
-                        # Back To Scond Menu
+                        # Back To Second Menu
                         elif user_input == 50:
                             menu.refered_websit()
                             break
