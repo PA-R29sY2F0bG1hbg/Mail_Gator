@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584750065764</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Version: 1.1.2">
+      <created>1584751282419</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584751282420</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,10 +273,10 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584750065554">
+    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584751282229">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584750065554" />
+    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584751282229" />
     <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566880585" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563534019" />
     <state x="721" y="298" key="FileChooserDialogImpl" timestamp="1584572566538">
@@ -300,11 +307,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563558157" />
-    <state x="564" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1584750777266">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1584790853173">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="564" y="342" key="com.intellij.ide.util.TipDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1584750777266" />
-    <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584572552687" />
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584790853173" />
     <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563305610" />
     <state x="1003" y="55" width="698" height="992" key="dock-window-1" timestamp="1584744980566">
       <screen x="0" y="27" width="1920" height="1052" />
