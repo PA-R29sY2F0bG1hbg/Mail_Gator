@@ -74,6 +74,5 @@ def volatility_m():
     print(white, '3) Hexdump')
     print(white, '4) PDF ID')
     print(white, '5) PDF PARSER')
-    print(white, '6) Office Doc Analyse')
-    print(white, '7) Office Doc Analyse Macro')
+    print(white, '6) Office Doc Analyse & Macro Analyse')
     print('99) Exit')

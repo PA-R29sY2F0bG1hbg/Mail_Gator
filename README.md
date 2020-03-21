@@ -53,6 +53,4 @@
     3) Hexdump
     4) PDF ID
     5) PDF PARSER
-    6) Office Doc Analyse
-    7) Office Doc Analyse Macro
-
+    6) Office Doc Analyse & Macro Analyse

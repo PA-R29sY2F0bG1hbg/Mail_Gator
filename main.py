@@ -205,7 +205,7 @@ try:
 
                 elif user_input == 6:
                     volatility_memory.oledump(attachment)
-                    A = input("Select Macro: ")
+                    A = input("Select Macro To Analyse: ") # In development
                     volatility_memory.oledump_macro(A, attachment)
 
                 elif user_input == 99:
