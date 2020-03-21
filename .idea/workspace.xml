@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency/apt_tools.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dependency/apt_tools.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584751282420</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Version: 1.1.2">
+      <created>1584792053435</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584792053435</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,11 +279,11 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584751282229">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1584792053209">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584751282229" />
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566880585" />
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584792053209" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584563534019" />
     <state x="721" y="298" key="FileChooserDialogImpl" timestamp="1584572566538">
       <screen x="0" y="27" width="1920" height="1053" />
