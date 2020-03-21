@@ -39,7 +39,7 @@ try:
     while user_selection != 88:
         user_input = int(input("\n Selection: "))
 
-        # Email Id Menue
+        # Email Id Menu
         if user_input == 1:
             while user_selection != 88:
                 menu.email_id_menu()
