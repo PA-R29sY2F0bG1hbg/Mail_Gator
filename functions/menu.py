@@ -12,7 +12,7 @@ blue = Fore.LIGHTBLUE_EX
 
 # Main Menue
 def main_menu():
-    print(yellow, '\n [*] Main Menue [*]')
+    print(yellow, '\n [*] Main Menu [*]')
     print(white, ' \n  1) Email Identities and Data')
     print(white, ' 2) Web Tracking Email Address')
     print(white, ' 3) IP Source Route')
