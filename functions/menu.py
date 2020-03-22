@@ -70,5 +70,9 @@ def vt_analyse():
 def volatility_m():
     print(yellow, '\n [*] Volatility Memory [*]')
     print(white, '\n 1) Exit Tool')
-    print(white, '\n 1) Strings')
+    print(white, '2) Strings')
+    print(white, '3) hexdump')
+    print(white, '4) Pdf id')
+    print(white, '5) Pdf parser')
+    print(white, '6) Office Docs & Macro Analyse')
     print('99) Exit')
