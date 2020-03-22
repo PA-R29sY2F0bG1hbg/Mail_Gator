@@ -16,8 +16,8 @@ def main_menu():
     print(white, ' \n  1) Email Identities and Data')
     print(white, ' 2) Web Tracking Email Address')
     print(white, ' 3) IP Source Route')
-    print(white, ' 4) Malware Anlayse')
-    print(white, ' 5) Volatility Memory')
+    print(white, ' 4) Malware Analyse')
+    print(white, ' 5) Email Volatility Memory')
     print(white, ' 99) Exit')
 
 
@@ -61,7 +61,7 @@ def ip_source_route():
 
 def vt_analyse():
     print(yellow, '\n [*] Malware Analyse [*] ')
-    print(white, '\n 1) Get Base64 File Hash')
+    print(white, '\n 1) Get File Hash')
     print(white, '2) Analyse Attachment')
     print(white, '50) Return To Main Menu')
     print(white, '99) Exit')
@@ -69,10 +69,6 @@ def vt_analyse():
 
 def volatility_m():
     print(yellow, '\n [*] Volatility Memory [*]')
-    print(white, '\n 1) Exiftool')
-    print(white, '2) Strings')
-    print(white, '3) Hexdump')
-    print(white, '4) PDF ID')
-    print(white, '5) PDF PARSER')
-    print(white, '6) Office Doc Analyse & Macro Analyse')
+    print(white, '\n 1) Exit Tool')
+    print(white, '\n 1) Strings')
     print('99) Exit')

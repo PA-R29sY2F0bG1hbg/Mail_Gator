@@ -97,7 +97,7 @@ try:
                             print(green, "\n[*] Hunter.io Loaded [*]")
                             time.sleep(1)
 
-                        # Back To Scond Menu
+                        # Back To Second Menu
                         elif user_input == 50:
                             menu.refered_websit()
                             break
