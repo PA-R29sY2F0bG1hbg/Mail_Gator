@@ -16,6 +16,13 @@ def all_meta_data(file):
     os.system('cat ' + file)
 
 
+def all_meta_data_var(file):
+    file = open(file, "r")
+    contenu = file.read()
+    file.close()
+    return contenu
+
+
 def short_meta_data(file):
     os.system("clear")
     print("\n")
