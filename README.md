@@ -1,8 +1,8 @@
-# Forensic Tool for investigate email #
+# BETA Forensic Tool for investigate email #
 ------------------------------------------------------
 
 
-![image](https://user-images.githubusercontent.com/18190054/77139073-d88b9b80-6a74-11ea-9c7c-c32ef9317041.png)
+![image](https://user-images.githubusercontent.com/18190054/77454516-eb95c700-6df8-11ea-838c-c61d0e66ab5a.png)
 
 
 ## How to install Dependency
@@ -21,6 +21,9 @@
 
 ## What Do Mail Gator
 
+- Automatic Analyse
+    [In Development]
+
 - Email Identities and Data
     1) Full Email Metadata
     2) Short list Metadata
@@ -38,9 +41,8 @@
 - IP Source Route
     1) IP Route
     2) IP Map Geolocation
-    3) Analyse Email Header
-    4) Last Servering IP
-    5) Url Authenticity
+    3) Last Servering IP
+    4) Url Authenticity
 
 - Malware Analyse
     1) Get File Hash
