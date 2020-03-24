@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="Update Menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/banner.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/banner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/ip_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/ip_tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <recent name="$PROJECT_DIR$/dependency" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.menu">
     <configuration name="email_identities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Mail_Gator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,6 +82,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mail_Gator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,6 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.email_identities" />
         <item itemvalue="Python.test" />
@@ -276,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584888654179</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update Menu">
+      <created>1585063815330</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585063815331</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -300,11 +331,11 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585063801167">
+    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585066535630">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584751282229" />
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585063801167" />
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585066535630" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888654060" />
     <state x="2020" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1584888620352">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -354,19 +385,19 @@
     <state x="564" y="342" key="com.intellij.ide.util.TipDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1584750777266" />
     <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585063144872" />
     <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584967279575" />
-    <state x="715" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585063811267">
+    <state x="715" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585064418619">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="715" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585063811267" />
+    <state x="715" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585064418619" />
     <state x="833" y="233" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1585063352611">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="833" y="233" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585063352611" />
-    <state x="265" y="27" width="1655" height="985" key="dock-window-1" timestamp="1584888128397">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="1987" y="27" width="1725" height="1049" key="dock-window-1" timestamp="1585068276789">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1003" y="55" width="698" height="992" key="dock-window-1/0.27.1920.1052@0.27.1920.1052" timestamp="1584744980566" />
-    <state x="1962" y="27" width="1420" height="1016" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584566242786" />
+    <state x="1987" y="27" width="1725" height="1049" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068276789" />
     <state x="265" y="27" width="1655" height="985" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888128397" />
     <state x="839" y="19" width="698" height="992" key="dock-window-2" timestamp="1584745134904">
       <screen x="0" y="27" width="1920" height="1052" />
@@ -384,14 +415,19 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2596" y="322" width="567" height="459" key="git4idea.merge.GitMergeDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888329506" />
-    <state x="2512" y="320" width="725" height="462" key="git4idea.merge.GitPullDialog" timestamp="1584887978077">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="592" y="339" width="735" height="451" key="git4idea.merge.GitPullDialog" timestamp="1585064438525">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="592" y="339" width="735" height="451" key="git4idea.merge.GitPullDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585064438525" />
     <state x="2512" y="320" width="725" height="462" key="git4idea.merge.GitPullDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584887978077" />
     <state x="2635" y="394" width="480" height="315" key="git4idea.rebase.GitRebaseDialog" timestamp="1584887246102">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2635" y="394" width="480" height="315" key="git4idea.rebase.GitRebaseDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584887246102" />
+    <state x="623" y="239" width="672" height="679" key="search.everywhere.popup" timestamp="1585066339982">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" width="672" height="679" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585066339982" />
     <state x="205" y="444" width="540" height="202" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584719702873">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>

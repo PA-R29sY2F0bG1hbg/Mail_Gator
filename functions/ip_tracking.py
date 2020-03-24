@@ -15,10 +15,6 @@ def map_geo(IP):
     subprocess.Popen(["firefox", "https://ipleak.net/?q="+IP])
 
 
-def header_analyse():
-    subprocess.Popen(["firefox", "https://www.whatismyip.com/email-header-analyzer/"])
-
-
 def last_servering_ip(url):
     os.system("dependency/vt url last_serving_ip_address " + url)
 

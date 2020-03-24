@@ -1,4 +1,3 @@
-import os
 from colorama import Fore
 
 # - Color
@@ -13,12 +12,20 @@ blue = Fore.LIGHTBLUE_EX
 # Main Menue
 def main_menu():
     print(yellow, '\n [*] Main Menu [*]')
-    print(white, ' \n  1) Email Identities and Data')
-    print(white, ' 2) Web Tracking Email Address')
-    print(white, ' 3) IP Source Route')
-    print(white, ' 4) Malware Analyse')
-    print(white, ' 5) Email Volatility Memory')
+    print(white, '\n   1) Automatic Analyse')
+    print(white, '  2) Manual Analyse')
     print(white, ' 99) Exit')
+
+
+def manual_menu():
+    print(yellow, '\n [*] Manual Analyse Menu [*]')
+    print(white, '\n   1) Email MetaData')
+    print(white, '  2) Web Tracking Email Address')
+    print(white, '  3) IP Source Route')
+    print(white, '  4) Malware Analyse')
+    print(white, '  5) Volatility Memory')
+    print(white, '  50) Return To Main Menu')
+    print(white, '  99) Exit')
 
 
 def email_id_menu():
@@ -50,11 +57,10 @@ def refered_websit():
 
 def ip_source_route():
     print(yellow, '\n [*] IP Route / Geolocation Tracking / Header Analyse   [*]')
-    print(white, '\n  1) IP Route ') # traceroute + whois
-    print(white, ' 2) IP Map Geolocation') # https://ipleak.net/?q="public_ip_target_without_cotes"
-    print(white, ' 3) Analyse Email Header') # https://www.whatismyip.com/email-header-analyzer/
-    print(white, ' 4) Last Servering IP')
-    print(white, ' 5) Url Authenticity')
+    print(white, '\n  1) IP Route ')  # traceroute + whois
+    print(white, ' 2) IP Map Geolocation')  # https://ipleak.net/?q="public_ip_target_without_cotes"
+    print(white, ' 3) Last Servering IP')
+    print(white, ' 4) Url Authenticity')
     print(white, ' 50) Return To Main Menu')
     print(white, ' 99) Exit')
 
