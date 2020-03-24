@@ -31,6 +31,6 @@ def ban():
                         
                                [ Email Investigator & Tracking ] 
                         
-                            [ Developed By: Gold_Cattlman & NaruFury ]
+                            [ Developed By: Gold_Cattleman & NaruFury ]
         
     """)
