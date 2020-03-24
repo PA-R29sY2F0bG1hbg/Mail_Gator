@@ -2,7 +2,8 @@ import os
 import sys
 import time
 from functions import email_identities, exit, ip_tracking, \
-    malware_vt_analyse, web_tracking_email, volatility_memory
+    malware_vt_analyse, web_tracking_email, volatility_memory, \
+    auto_analyse
 from graphical import banner, menu
 from colorama import Fore
 
@@ -43,8 +44,8 @@ try:
         # Automatic Analyse
         if user_input == 1:
             try:
-                while 1:
-                    print("Automatic Analyse")
+                auto_analyse.auto_analyse_full(file)
+
             except KeyboardInterrupt:
                 exit.exit_func()
 
