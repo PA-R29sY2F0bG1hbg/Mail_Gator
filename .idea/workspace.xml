@@ -4,7 +4,6 @@
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/auto_analyse.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/auto_analyse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585069685571</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update auto_analyse.py">
+      <created>1585071055554</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585071055554</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -357,7 +363,8 @@
     <MESSAGE value="Update Menu" />
     <MESSAGE value="Update Banner / READ ME" />
     <MESSAGE value="Update Folder Struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Folder Struct" />
+    <MESSAGE value="Update auto_analyse.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update auto_analyse.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="215" width="800" height="673" key="#Notifications" timestamp="1584887770073">
@@ -368,11 +375,11 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585069685450">
+    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585071055491">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584751282229" />
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585069685450" />
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585071055491" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888654060" />
     <state x="2020" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1584888620352">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -412,10 +419,10 @@
     </state>
     <state x="459" y="176" width="1001" height="734" key="SettingsEditor/0.27.1920.1052@0.27.1920.1052" timestamp="1584709475552" />
     <state x="2379" y="153" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584887340001" />
-    <state x="555" y="305" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1585070616524">
+    <state x="555" y="305" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1585071062346">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="305" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585070616524" />
+    <state x="555" y="305" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585071062346" />
     <state x="2475" y="285" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888465608" />
     <state x="2453" y="231" width="693" height="686" key="VcsDiffUtil.ChangesDialog" timestamp="1584887186694">
       <screen x="1920" y="0" width="1920" height="1080" />
