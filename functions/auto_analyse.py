@@ -9,8 +9,10 @@
 import os
 import sys
 import time
+from graphical import report_header
 from datetime import datetime
 from functions import email_identities
+
 
 today_date = datetime.now()
 report_date = "\nDATE: ", str(today_date.month) + str(today_date.day) + str(today_date.year)\
@@ -18,13 +20,19 @@ report_date = "\nDATE: ", str(today_date.month) + str(today_date.day) + str(toda
 
 
 def auto_analyse_full(file):
-    # full meta data
-    contenu = email_identities.all_meta_data_var(file)
+    # Report + Report Head
     today_date = datetime.now()
     name_file = "Report" + "_" + str(today_date.month) + "-" + str(today_date.day) +\
                 "-" + str(today_date.year) + "-" + str(today_date.hour) +\
                 ":" + str(today_date.minute) + ".txt"
-    file_analyse = open(name_file, "w")
+
+    file_analyse = open(name_file, "a")
+    file_analyse.write(str(report_header()))
+    file_analyse.close()
+
+    # full meta data
+    contenu = email_identities.all_meta_data_var(file)
+    file_analyse = open(name_file, "a")
     file_analyse.write(contenu)
     file_analyse.close()
 
