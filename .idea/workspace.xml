@@ -331,11 +331,11 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="136" y="329" width="684" height="428" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1052@0.27.1920.1052" timestamp="1584671329370" />
-    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585066535630">
+    <state x="522" y="79" width="815" height="1014" key="CommitChangelistDialog2" timestamp="1585068879745">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="522" y="19" width="815" height="1014" key="CommitChangelistDialog2/0.27.1920.1052@0.27.1920.1052" timestamp="1584751282229" />
-    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585066535630" />
+    <state x="522" y="79" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068879745" />
     <state x="2442" y="53" width="865" height="996" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584888654060" />
     <state x="2020" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1584888620352">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -346,22 +346,26 @@
     </state>
     <state x="721" y="298" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1584572566538" />
     <state x="2641" y="278" width="424" height="480" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584887416428" />
-    <state width="927" height="249" key="GridCell.Tab.0.bottom" timestamp="1584747234822">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state width="1891" height="258" key="GridCell.Tab.0.bottom" timestamp="1585068881661">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="927" height="249" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1584747234822" />
-    <state width="927" height="249" key="GridCell.Tab.0.center" timestamp="1584747234822">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state width="1891" height="258" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068881661" />
+    <state width="1891" height="258" key="GridCell.Tab.0.center" timestamp="1585068881661">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="927" height="249" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1584747234822" />
-    <state width="927" height="249" key="GridCell.Tab.0.left" timestamp="1584747234821">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state width="1891" height="258" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068881661" />
+    <state width="1891" height="258" key="GridCell.Tab.0.left" timestamp="1585068881661">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="927" height="249" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1584747234821" />
-    <state width="927" height="249" key="GridCell.Tab.0.right" timestamp="1584747234822">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state width="1891" height="258" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068881661" />
+    <state width="1891" height="258" key="GridCell.Tab.0.right" timestamp="1585068881661">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="927" height="249" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1584747234822" />
+    <state width="1891" height="258" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585068881661" />
     <state x="2587" y="252" width="575" height="599" key="MultipleFileMergeDialog" timestamp="1584887995548">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
