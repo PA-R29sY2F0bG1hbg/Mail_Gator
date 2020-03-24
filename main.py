@@ -1,8 +1,9 @@
 import os
 import sys
 import time
-from functions import banner, email_identities, exit, ip_tracking, \
-    malware_vt_analyse, menu, web_tracking_email, volatility_memory
+from functions import email_identities, exit, ip_tracking, \
+    malware_vt_analyse, web_tracking_email, volatility_memory
+from graphical import banner, menu
 from colorama import Fore
 
 #############
