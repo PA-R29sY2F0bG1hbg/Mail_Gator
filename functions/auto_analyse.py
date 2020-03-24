@@ -8,15 +8,30 @@
 """
 import os
 import sys
-import datetime
+import time
+from datetime import datetime
 from functions import email_identities
+
+today_date = datetime.now()
+report_date = "\nDATE: ", str(today_date.month) + str(today_date.day) + str(today_date.year)\
+              + str(today_date.hour) + str(today_date.minute)
 
 
 def auto_analyse_full(file):
+    # full meta data
     contenu = email_identities.all_meta_data_var(file)
-    date = datetime.datetime.now()
-    name_file = "Report" + " " + str(date) + ".txt"
+    today_date = datetime.now()
+    name_file = "Report" + "_" + str(today_date.month) + "-" + str(today_date.day) +\
+                "-" + str(today_date.year) + "-" + str(today_date.hour) +\
+                ":" + str(today_date.minute) + ".txt"
     file_analyse = open(name_file, "w")
-    file_analyse.write("test lalalala \n")
     file_analyse.write(contenu)
     file_analyse.close()
+
+    # Short Meta data
+    email_identities.short_meta_data_var(file, name_file)
+
+    # body extract
+    email_identities.body_extract_var(file)
+
+
