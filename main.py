@@ -236,6 +236,7 @@ try:
 
                 # Back To Main Menu
                 elif user_input == 50:
+                    menu.main_menu()
                     break
 
                 # Exit Mail Gator

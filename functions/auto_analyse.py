@@ -32,6 +32,12 @@ def auto_analyse_full(file):
     email_identities.short_meta_data_var(file, name_file)
 
     # body extract
-    email_identities.body_extract_var(file)
+    file_analyse = open(name_file, "a")
+    file_analyse.write("\n==========================")
+    file_analyse.write("\n[*] Email Body Section [*]")
+    file_analyse.write("\n==========================")
+    file_analyse.write("\n")
+    file_analyse.write(str(email_identities.body_extract_var(file)))
+    file_analyse.close()
 
 

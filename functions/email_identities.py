@@ -78,4 +78,4 @@ def body_extract(file):
 
 def body_extract_var(file):
     mail = mailparser.parse_from_file(file)
-    return mail
+    return mail.body
