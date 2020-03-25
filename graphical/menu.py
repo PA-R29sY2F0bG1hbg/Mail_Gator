@@ -35,7 +35,7 @@ def manual_menu():
     print(" ")
     print(" ")
     print(" ")
-    print(green + '[*]' + white + " Email Adresse Check " + green + '[*]', end='')
+    print(green + '[*]' + white + " Email Address Check " + green + '[*]', end='')
     print(green + '                    [*]' + white + " IP Source Route" + green + '[*]')
     print(" ")
     print(red + '[' + yellow + '6' + red + ']' + blue + ' Hunter.IO', end='')
