@@ -230,6 +230,11 @@ try:
                             A = input("Select Macro To Analyse: ")  # In development
                             volatility_memory.oledump_macro(A, attachment)
 
+                        # Previous Menu
+                        elif user_input == 50:
+                            menu.manual_menu()
+                            break
+
                         # Exit Mail Gator
                         elif user_input == 99:
                             exit.exit_func()
