@@ -1,4 +1,4 @@
-# BETA Forensic Tool for investigate email #
+# BETA Forensic Tool for Email Investigation #
 ------------------------------------------------------
 
 
