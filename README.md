@@ -16,7 +16,7 @@
 
 ## How Launch Mail_Gator 
 
-.\main.py [path to email] [(optional) path to attachment]
+python3 main.py [path to email] [(optional) path to attachment]
 
 ## What Do Mail Gator
 
