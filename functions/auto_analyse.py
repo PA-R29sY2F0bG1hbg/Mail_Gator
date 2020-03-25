@@ -26,10 +26,6 @@ def auto_analyse_full(file):
                 "-" + str(today_date.year) + "-" + str(today_date.hour) +\
                 ":" + str(today_date.minute) + ".txt"
 
-    file_analyse = open(name_file, "a")
-    file_analyse.write(str(report_header()))
-    file_analyse.close()
-
     # full meta data
     contenu = email_identities.all_meta_data_var(file)
     file_analyse = open(name_file, "a")
