@@ -33,7 +33,9 @@ def auto_analyse_full(file):
         # Short Meta data
     contenu = email_identities.short_meta_data_var(file)
     write_file_tableau(name_file, contenu, "a")
-
+    contenu = search_word_add_string(str(read_file(name_file)), "1)", "Short Meta Data : OK")
+    write_file(name_file, contenu, "w")
+    print("Short Meta Data : OK")
         # body extract
     cont_tab = ["\n==========================",
                 "\n[*] Email Body Section [*]",
@@ -41,3 +43,6 @@ def auto_analyse_full(file):
                 "\n\n",
                 str(email_identities.body_extract_var(file))]
     write_file_tableau(name_file, cont_tab, "a")
+    contenu = search_word_add_string(str(read_file(name_file)), "2)", "Body Extract    : OK")
+    write_file(name_file, contenu, "w")
+    print("Body Extract    : OK")
