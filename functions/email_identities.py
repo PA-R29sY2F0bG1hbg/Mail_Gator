@@ -42,28 +42,35 @@ def short_meta_data(file):
             e_smtp = os.system("grep smtp " + file)
 
 
-def short_meta_data_var(file, report):
-    space = os.system('echo " "' + ">>" + report)
-    head = os.system('echo "==============================="' + ">>" + report)
-    head = os.system('echo "[*] Short Meta Data Section [*]"' + ">>" + report)
-    head = os.system('echo "==============================="' + ">>" + report)
-    space = os.system('echo " "' + ">>" + report)
-    head1 = os.system('echo "[*] Global Informations [*]"' + ">>" + report)
-    sep = os.system('echo "   ------------------------"' + ">>" + report)
-    e_date = os.system("grep ^Date " + file + ">>" + report)
-    e_sub = os.system("grep ^Subject " + file + ">>" + report)
-    e_to = os.system("grep ^To: " + file + ">>" + report)
-    e_from = os.system("grep ^From: " + file + ">>" + report)
-    e_attach = os.system("grep attachment " + file + ">>" + report)
-    e_mess_id = os.system("grep Message-Id: " + file + ">>" + report)
-    space = os.system('echo " "' + ">>" + report)
-    head2 = os.system('echo "[*] IP Information (Email Header) [*]"' + ">>" + report)
-    sep = os.system('echo "   ------------------------"' + ">>" + report)
-    e_rcv_ip = os.system("grep Received " + file + ">>" + report)
-    space = os.system('echo " "' + ">>" + report)
-    head3 = os.system('echo "[*] SMTP Inforamtion [*]"' + ">>" + report)
-    sep = os.system('echo "   ------------------------"' + ">>" + report)
-    e_smtp = os.system("grep smtp " + file + ">>" + report)
+def short_meta_data_var(file_mail):
+    date = str(os.popen("grep ^Date: " + file_mail).readlines())
+    subject = str(os.popen("grep ^Subject: " + file_mail).readlines())
+    to_var = str(os.popen("grep ^To: " + file_mail).readlines())
+    from_var = str(os.popen("grep ^From: " + file_mail).readlines())
+    attachement = str(os.popen("grep attachement " + file_mail).readlines())
+    message_id =str(os.popen("grep Message-Id: " + file_mail).readlines())
+    received = os.popen("grep Received " + file_mail).readlines()
+    smtp = os.popen("grep smtp " + file_mail).readlines()
+
+    cont_tab = ("\n===============================",
+                "\n[*] Short Meta Data Section [*]",
+                "\n===============================",
+                "\n\n[*] Global Informations [*]\n",
+                "   ------------------------\n",
+                date[2:(len(date)-4 )], "\n",
+                subject[2:(len(subject) - 4)], "\n",
+                to_var[2:(len(to_var) - 4)], "\n",
+                from_var[2:(len(from_var) - 4)], "\n",
+                attachement[2:(len(attachement) - 4)], "\n",
+                str(message_id[2:(len(message_id) - 4)]), "\n\n",
+                "[*] IP Information (Email Header) [*]", "\n",
+                "   ------------------------", "\n",)
+    cont_tab = cont_tab + tuple(received) + ("\n\n",) + \
+               ("[*] SMTP Information [*]",) + ("\n",) +\
+               ("   ------------------------",) + ("\n",) + \
+               tuple(smtp) + ("\n",)
+
+    return cont_tab
 
 
 def body_extract(file):
