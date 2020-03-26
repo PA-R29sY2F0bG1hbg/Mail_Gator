@@ -9,7 +9,6 @@
 import os
 import sys
 import time
-from graphical import report_header
 from datetime import datetime
 from functions import email_identities
 
@@ -29,12 +28,23 @@ def write_file_tableau(name_file, contenu, choix_write):
         file_analyse.write(contenu[i])
     file_analyse.close()
 
+
+def read_file_write_report(report_header, name_file, choix_write):
+    file_header = open("./graphical/report_header.py", "r")
+    contenu_header = file_header.read()
+    write_file(name_file, contenu_header, choix_write)
+    file_header.close()
+
+
 def auto_analyse_full(file):
     # Report + Report Head
     today_date = datetime.now()
     name_file = "Report" + "_" + str(today_date.month) + "-" + str(today_date.day) + \
                 "-" + str(today_date.year) + "-" + str(today_date.hour) + \
                 ":" + str(today_date.minute) + ".txt"
+
+    # Report Header
+    read_file_write_report("./graphical/report_header.py", name_file, "w")
 
     # full meta data
     contenu = email_identities.all_meta_data_var(file)
