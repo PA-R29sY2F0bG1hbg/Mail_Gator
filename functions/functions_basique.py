@@ -29,6 +29,7 @@ def write_file(name_file, contenu, choix_write):
     file_analyse.close()
 
 
+"""Ecrire dans un tableau meme principe que write file"""
 def write_file_tableau(name_file, contenu, choix_write):
     file_analyse = open(name_file, choix_write)
     for i in range(len(contenu)):
@@ -36,6 +37,7 @@ def write_file_tableau(name_file, contenu, choix_write):
     file_analyse.close()
 
 
+"""lire fichier puis ecrire dans un autre voir le meme en choisissant le choix ecriture"""
 def read_file_write_report(report_header, name_file, choix_write):
     file_header = open(report_header, "r")
     contenu_header = file_header.read()
