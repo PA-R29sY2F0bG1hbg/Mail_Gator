@@ -3,7 +3,7 @@ import sys
 import time
 from functions import email_identities, exit, ip_tracking, \
     malware_vt_analyse, web_tracking_email, volatility_memory, \
-    auto_analyse
+    auto_analyse, url_interaction
 from graphical import banner, menu
 from colorama import Fore
 
@@ -101,34 +101,45 @@ try:
                     print(green, "\n[*] IPLeak Loaded [*]")
                     time.sleep(1)
                 elif user_input == 10:
-                    target_url = input("[!] Enter url: ")
+                    target_url = input("\n[!] Enter url: ")
                     ip_tracking.last_servering_ip(target_url)
-                elif user_input == 11:
-                    target_url = input("[!] Enter url: ")
-                    ip_tracking.url_authen(target_url)
 
                 # Malware Analyse
-                elif user_input == 12:
+                elif user_input == 11:
                     malware_vt_analyse.get_attachment_hash(attachment)
-                elif user_input == 13:
-                    hash_file = input("[!] Enter File Hash: ")
+                elif user_input == 12:
+                    hash_file = input("\n[!] Enter File Hash: ")
                     malware_vt_analyse.analyse_attachment(hash_file)
 
                 # Volatility Memory
-                elif user_input == 14:
+                elif user_input == 13:
                     volatility_memory.exiftool(attachment)
-                elif user_input == 15:
+                elif user_input == 14:
                     volatility_memory.strings_tool(attachment)
-                elif user_input == 16:
+                elif user_input == 15:
                     volatility_memory.hexdump(attachment)
-                elif user_input == 17:
+                elif user_input == 16:
                     volatility_memory.pdfid(attachment)
-                elif user_input == 18:
+                elif user_input == 17:
                     volatility_memory.pdfparser(attachment)
-                elif user_input == 19:
+                elif user_input == 18:
                     volatility_memory.oledump(attachment)
-                    A = input("Select Macro To Analyse: ")  # In development
+                    A = input("\nSelect Macro To Analyse: ")  # In development
                     volatility_memory.oledump_macro(A, attachment)
+
+                # Url Interaction
+                elif user_input == 19:
+                    url = str(input("\n[!] Enter Url: "))
+                    url_interaction.url_authen(url)
+                elif user_input == 20:
+                    url = str(input("\n[!] Enter Url: "))
+                    url_interaction.url_decode(url)
+                elif user_input == 21:
+                    url = str(input("\n[!] Enter Url: "))
+                    url_interaction.http_status_code_and_header(url)
+                elif user_input == 22:
+                    url = str(input("\n[!] Enter Url: "))
+                    url_interaction.html_metadata(url)
 
                 # GM / QUI / BACK
                 elif user_input == 75:

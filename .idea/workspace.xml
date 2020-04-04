@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be3238d-3ce2-4a5d-9306-05cabd22609c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Report_4-4-2020-16:46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/url_interaction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/ip_tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/ip_tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphical/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphical/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,6 +418,17 @@
     <option name="localTasksCounter" value="35" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -507,12 +523,12 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2453" y="231" width="693" height="686" key="VcsDiffUtil.ChangesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584887186694" />
-    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585170044955">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog" timestamp="1586014285585">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="564" y="334" key="com.intellij.ide.util.TipDialog/0.27.1920.1052@0.27.1920.1052" timestamp="1585109092113" />
     <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585164865954" />
-    <state x="2484" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1585170044955" />
+    <state x="564" y="398" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586014285585" />
     <state x="715" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585064418619">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -521,16 +537,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="833" y="233" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585063352611" />
-    <state x="508" y="27" width="1412" height="985" maximized="true" key="dock-window-1" timestamp="1585148215555">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2224" y="27" width="1419" height="985" maximized="true" key="dock-window-1" timestamp="1586013100283">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1003" y="39" width="698" height="992" key="dock-window-1/0.27.1920.1052@0.27.1920.1052" timestamp="1585109121949" />
-    <state x="1920" y="387" width="1717" height="1049" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1585080691731" />
-    <state x="508" y="27" width="1412" height="985" maximized="true" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1585148215555" />
-    <state x="839" y="19" width="698" height="992" key="dock-window-2" timestamp="1584745134904">
-      <screen x="0" y="27" width="1920" height="1052" />
+    <state x="2224" y="27" width="1419" height="985" maximized="true" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586013100283" />
+    <state x="186" y="27" width="1419" height="985" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586011748226" />
+    <state x="2235" y="27" width="960" height="1080" maximized="true" key="dock-window-2" timestamp="1586013100283">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="839" y="19" width="698" height="992" key="dock-window-2/0.27.1920.1052@0.27.1920.1052" timestamp="1584745134904" />
+    <state x="2235" y="27" width="960" height="1080" maximized="true" key="dock-window-2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1586013100283" />
+    <state x="677" y="0" width="960" height="1080" maximized="true" key="dock-window-2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1586011748226" />
     <state x="937" y="19" width="698" height="701" key="dock-window-3" timestamp="1584747041262">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>

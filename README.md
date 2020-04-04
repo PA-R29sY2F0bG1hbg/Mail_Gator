@@ -20,4 +20,4 @@ python3 main.py [path to email] [(optional) path to attachment]
 
 ## What Do Mail Gator
 
-![image](https://user-images.githubusercontent.com/18190054/77568271-ab057e80-6ec8-11ea-9b8c-5c4bec612876.png)
+![image](https://user-images.githubusercontent.com/18190054/78454758-587f4b80-769a-11ea-9be5-00ff871eaebe.png)

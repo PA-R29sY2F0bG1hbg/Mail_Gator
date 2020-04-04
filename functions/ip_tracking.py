@@ -17,7 +17,3 @@ def map_geo(IP):
 
 def last_servering_ip(url):
     os.system("dependency/vt url last_serving_ip_address " + url)
-
-
-def url_authen(url):
-    os.system("dependency/vt url " + url + " --include=last_analysis_results.*.result")
